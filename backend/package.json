@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-     "start": "node server.js",
-  "dev": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,10 +15,13 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
+    "netlify-cli": "^17.36.4",
+    "netlify-lambda": "^2.0.16",
     "nodemailer": "^6.9.15",
     "react-redux": "^9.1.2",
     "redux": "^5.0.1",
-    "redux-thunk": "^3.1.0"
+    "redux-thunk": "^3.1.0",
+    "serverless-http": "^3.2.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
